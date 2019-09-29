@@ -1,0 +1,114 @@
+.header img {
+    float: center;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.header h1 {
+    display: inline;
+    font-size: 90px;
+    color: skyblue  ;
+    background-color: skyblue;
+    border: wheat;
+}
+.center{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1350px;
+    height: 750px;
+}
+.wrap{
+    margin: 0 auto;
+    padding: 0;
+    width: 750px;
+    float:left;
+}
+.wrap1{
+    margin: 0 auto;
+    padding: 0;
+    width: 750px;
+    float:right;
+}
+section,
+hgroup,nav,figure{
+    display:block;
+    background-color: white;
+    border: blue solid;
+}
+.line{
+
+    background-color:#15242a;
+    border-bottom-color:#204656;
+    margin:1.3em 0;
+    font-display: green;    
+}
+footer .line{
+    margin:2em 0;
+}
+.clear{
+    font-size: 25px;
+}
+
+#navlinks{
+    line-height: 30px;
+    background-color : gold;
+    height: 750px;
+    width :150px;
+    float:left;
+    padding:5px;
+}
+body {background-image: url("assignment2.2.jpg")
+}
+
+li a:hover{
+    background-color:green;
+    color: white;
+}
+
+nav, nav ul li a,figure{
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+}
+
+#page{
+    width:1360px;
+    margin:0 auto;
+    position:relative;
+}
+
+footer{
+    margin-bottom:30px;
+    text-align:center;
+    font-size:0.825em;
+    color: black    ;   
+}
+
+footer p{
+    margin-bottom:-2.5em;
+    position:relative;
+}
+
+footer a,footer a:visited{
+    color:#cccccc;
+    background-color:#213e4a;
+    display:block;
+    padding:2px 4px;
+    z-index:100;
+    position:relative;
+}
+
+footer a:hover{
+    text-decoration:none;
+    background-color:#142830;
+}
+
+footer a.by{
+    float:left;
+
+}
+
+footer a.up{
+    float:right;
+}
